@@ -15,9 +15,9 @@ Chrome拡張機能をインストールするためのブックマークレッ�
 
 ③"その他..."を押す
 
-④"URL"にJavascriptのコードをペースト（名前はなんでも良い）し、保存
+④"URL"にJavascriptのコードをペーストし、保存（名前は任意）
 
-⑤https://chrome.google.com/webstorex にアクセスし、④のブックマークを使用
+⑤https://chrome.google.com/webstorex にアクセスし、ブックマークレットを使用
 
 ⑥"Put Extension ID"にダウンロードしたい拡張機能のIDを入力
 
