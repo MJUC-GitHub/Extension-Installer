@@ -1,1 +1,1 @@
-# Extension-Installer
+# 拡張機能インストーラー
