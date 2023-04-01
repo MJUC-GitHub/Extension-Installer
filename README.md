@@ -6,19 +6,19 @@ Improved by Subneko#6560
 ©2023 MJUC
 
 Chrome拡張機能をインストールするためのブックマークレットです。
-ポリシーで管理されているPCでも使用できます。
+ポリシーで管理されていても使用できます。
 
 ## 使い方
 
-①ダウンロードし、コードを全てコピー
+①最新版をダウンロードし、コードを全てコピー
 
-②Chromeの任意のサイトでCtrl+D
+②任意のサイトでCtrl+D
 
 ③"その他..."を押す
 
 ④"URL"にJavascriptのコードをペーストし、保存（名前は任意）
 
-⑤https://chrome.google.com/webstorex にアクセスし、ブックマークレットを使用
+⑤https://chrome.google.com/webstorex にアクセスし、作成したブックマークレットを使用
 
 ⑥"Put Extension ID"にダウンロードしたい拡張機能のIDを入力
 
