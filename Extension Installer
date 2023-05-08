@@ -3,7 +3,7 @@ javascript: document.write("<center><head><h1 style='color: white; margin-top: 1
         "click",
         function () {
             let extension = document.getElementById("extension").value;
-            if(extension.length !== 32 || /[^a-z]/.test(extension)) {
+            if(extension.length !== 32 || /^[a-zA-Z]{32}$/.test(extension)) {
                 alert("Extension ID is Invalid!");
             }
             else
