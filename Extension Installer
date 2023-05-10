@@ -8,7 +8,7 @@ String.prototype.getExtensionID = function () {
         return /^[a-zA-Z]{32}$/.test(extensionID) ? extensionID : false;
     }
     return false;
-}
+};
 document.getElementById("DL").addEventListener("click", () => {
     let extensionID = document.getElementById("extension").value.getExtensionID();
     if (extensionID) {
