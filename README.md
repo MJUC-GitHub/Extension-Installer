@@ -1,5 +1,5 @@
 # Extension Installer
-by NGMS#3914 & Subneko#6560
+by NGMS#3914 & @otnkmk8d & @reactor-coding
 
 ©2023 MJUC
 
