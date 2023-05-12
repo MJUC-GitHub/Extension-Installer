@@ -1,12 +1,9 @@
-# 拡張機能インストーラー
-Created by NGMS#3914
-
-Improved by Subneko#6560
+# Extension Installer
+by NGMS#3914 & Subneko#6560
 
 ©2023 MJUC
 
 Chrome拡張機能をインストールするためのブックマークレットです。
-ポリシーで管理されていても使用できます。
 
 ## 使い方
 
@@ -20,12 +17,10 @@ Chrome拡張機能をインストールするためのブックマークレッ�
 
 ⑤https://chrome.google.com/webstorex にアクセスし、作成したブックマークレットを使用
 
-⑥"Put Extension ID"にダウンロードしたい拡張機能のIDを入力
+⑥入力欄にダウンロードしたい拡張機能のURL（https://chrome.google.com/webstore/detail/ から始まるもの）またはIDを入力
 
 ⑦"Download"ボタンを押し、アラートの"拡張機能を追加"を押す 
 
 ※アラートが出た場合は、拡張機能IDが無効です
 
 ※稀にダウンロードエラーを吐くことがありますが、その場合はもう一度Downloadボタンを押してみてください
-
-※全てのChrome拡張機能をダウンロードできるわけではありません（調査中）
