@@ -7,7 +7,7 @@ Chrome拡張機能をインストールするためのブックマークレッ�
 
 ## 使い方
 
-①最新版（https://github.com/otnkmk8d/Extension-Installer/releases/）をダウンロードし、コードを全てコピー
+①最新版（https://github.com/otnkmk8d/Extension-Installer/releases/） をダウンロードし、コードを全てコピー
 
 ②任意のサイトでCtrl+D
 
