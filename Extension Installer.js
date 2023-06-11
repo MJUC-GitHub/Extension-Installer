@@ -1,9 +1,9 @@
 javascript: document.write(
-  "<title>Extension Installer</title><style>body {background-color: #2e2e31;}h1 {color: white;margin-top: 100px;font-size: 50px;line-height: 1;}h2 {color: white;margin-top: -10px;font-size: 20px;line-height: 1;}a {color: white;margin-top: -10px;font-size: 20px;line-height: 1;}div {display: flex; flex-direction: column; justify-content: center; align-items: center;}</style><center><head><h1>Extension Installer ver.1.2.1</h1><h2>by NGMS & otoneko</h2><a href=https://github.com/otnkmk8d/Extension-Installer>GitHub</a></head></center><div style='height: 100vh;'><div><input id='extension' placeholder='Extension ID or URL'style='width: 1000px; height: 50px; font-size: 20px; border-radius: 25px 25px 25px 25px; color: black; padding-left: 20px; margin-bottom: 100px; margin-top: -150px;'><button id='DL' style='border-radius: 10px; width: 300px; height: 50px; font-size: 18px; color: black; margin-bottom: 200px; border-radius: 30px;'>Download</button></div></div>"
+  "<title>Extension Installer</title><style>body {background-color: #2e2e31;}h1 {color: white;margin-top: 100px;font-size: 50px;line-height: 1;}h2 {color: white;margin-top: -10px;font-size: 20px;line-height: 1;}a {color: white;margin-top: -10px;font-size: 20px;line-height: 1;}div {display: flex; flex-direction: column; justify-content: center; align-items: center;}</style><center><head><h1>Extension Installer ver.1.2.2</h1><h2>by NGMS & otoneko</h2><a href=https://github.com/otnkmk8d/Extension-Installer>GitHub</a></head></center><div style='height: 100vh;'><div><input id='extension' placeholder='Extension ID or URL'style='width: 1000px; height: 50px; font-size: 20px; border-radius: 25px 25px 25px 25px; color: black; padding-left: 20px; margin-bottom: 100px; margin-top: -150px;'><button id='DL' style='border-radius: 10px; width: 300px; height: 50px; font-size: 18px; color: black; margin-bottom: 200px; border-radius: 30px;'>Download</button></div></div>"
 );
 String.prototype.getExtensionID = function () {
   if (/^[a-zA-Z]{32}$/.test(this)) {
-    return this;
+    return this.toString();
   } else if (this.match("chrome.google.com")) {
     const pathname = new URL(this).pathname.split("/");
     const extensionID = pathname[pathname.length - 1];
