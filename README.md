@@ -1,7 +1,7 @@
 # Extension Installer
-by NGMS#3914 & [@otnkmk8d](https://github.com/otnkmk8d) & [@reactor-coding](https://github.com/reactor-coding)
+by @ngms(Discord) & [@otnkmk8d](https://github.com/otnkmk8d) & [@reactor-coding](https://github.com/reactor-coding)
 
-©2023 MJUC
+© 2023 MJUC
 
 Chrome拡張機能をインストールするためのブックマークレットです。
 
