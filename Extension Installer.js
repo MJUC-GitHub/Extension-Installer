@@ -1,4 +1,5 @@
-javascript:String.prototype.getExtensionID = function () {
+javascript:
+String.prototype.getExtensionID = function () {
   if (/^[a-zA-Z]{32}$/.test(this)) {
     return this.toString();
   } else if (this.match("chrome.google.com")) {
