@@ -1,4 +1,8 @@
 javascript:
+document.write(
+  "<title>Extension Installer</title>"
+);
+
 String.prototype.getExtensionID = function () {
   if (/^[a-zA-Z]{32}$/.test(this)) {
     return this.toString();
@@ -14,7 +18,7 @@ const currentURL = window.location.href;
 const allowedPatternURL = /^https:\/\/chrome\.google\.com\/webstore[a-zA-Z]+$/;
 
 if (allowedPatternURL.test(currentURL)) {
-  const extensionInput = prompt("Enter Extension ID or URL");
+  const extensionInput = prompt("Extension Installer ©MJUC\nEnter Extension ID or URL");
 
   if (extensionInput === null) {
   } else {
