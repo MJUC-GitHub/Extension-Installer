@@ -35,5 +35,5 @@ if (allowedPatternURL.test(currentURL)) {
     }
   }
 } else {
-  alert("This page is not allowed for execution\nPlease run it on a page like this:\nhttps://chrome.google.com/webstorex");
+  window.open("https://chrome.google.com/webstorex");
 }
